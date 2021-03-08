@@ -14,7 +14,7 @@ namespace Tic_Tac_Toe
     {
         public static int Stevec = 0, stevko = 0;
         public static string skupaj = "";
-        public static int Zmagica_X = 0, Zmagica_O = 0;
+        public static int  Zmagica_X = 0,  Zmagica_O = 0;
         public static List<Button> gumbi = new List<Button>();
 
         public static bool Zmaga_X(Panel p, Button sedaj)
