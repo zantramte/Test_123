@@ -19,6 +19,7 @@ namespace Tic_Tac_Toe
 
         public static bool Zmaga_X(Panel p, Button sedaj)
         {
+
             foreach (Button gumb in p.Controls)
             {
                 if (gumb.Location.X == sedaj.Location.X)
@@ -27,10 +28,12 @@ namespace Tic_Tac_Toe
                 }
             }
 
+
             foreach (Button gumb in gumbi)
             {
                 skupaj = skupaj + gumb.Text;
             }
+
 
             if (skupaj == "XXX" || skupaj == "OOO")
             {
